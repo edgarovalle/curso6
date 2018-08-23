@@ -1,0 +1,67 @@
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Juan Valdez</title>
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+			<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+			<script src="script/jvaldez.js"></script>
+		</head>
+		<body>
+			<div class = "encabezado">
+			
+				<div class = "logo">
+					 Logo
+				</div>
+
+				<div class = "slogan">
+					slogan
+				</div>
+					<nav class="dropdownmenu">
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About Me</a></li>
+							<li><a href="#">Articles on HTML5 & CSS3</a>
+								<ul id="submenu">
+									<li> <a href="#">Difference betwee3n SVG vs. Canvas</a></li>
+									<li> <a href="#">New features in HTML5</a></li>
+									<li><a href="#">Creating links to sections within a web page</a></li>
+								</ul>
+							</li>
+							<li><a href="#">News</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</nav>
+			</div>
+				<div class = "slideshow">
+					<input type="button" name="btnMensaje" id="btnMensaje" value="Mensaje">
+					slideshow	
+				</div>
+					<div class = "derechos" >
+						derechos
+					</div>
+			
+					<div class = "redes">
+					redes
+					</div>
+			</div>
+		</body>
+
+	<footer>
+		
+	</footer>
+	</html>
+	<script type="text/javascript">
+		// lanzar el evento read, cuando la pagina esta cargando
+		$(document).ready(function(){
+//			bienvenida();
+		})
+
+		function bienvenida() {
+			var mensaje = 'Bienvenidos al';
+			alert(mensaje);
+		}
+
+		$('#btnMensaje').click(function(){
+			bienvenida();
+		})
+	</script>
